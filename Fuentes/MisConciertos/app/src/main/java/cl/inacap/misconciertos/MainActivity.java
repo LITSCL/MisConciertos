@@ -76,17 +76,17 @@ public class MainActivity extends AppCompatActivity {
 
         //3. Se añaden propiedades a los View.
         nombreArtistaEt.setHint("Nombre del Artista");
-        fechaBtn.setText("Fecha");
+        fechaBtn.setText(R.string.letraBotonFecha);
         fechaBtn.setBackgroundColor(R.color.colorPrimaryDark);
-        generoMusicalTv.setText("Seleccione el género musical");
+        generoMusicalTv.setText(R.string.letraTextViewGeneroMusical);
         generoMusicalTv.setGravity(Gravity.CENTER_HORIZONTAL);
-        registrarBtn.setText("Registrar");
+        registrarBtn.setText(R.string.letraBotonRegistrar);
         registrarBtn.setBackgroundColor(R.color.colorPrimaryDark);
         fechaTxt.setGravity(Gravity.CENTER_HORIZONTAL);
         fechaTxt.setEnabled(false);
         valorEntradaEt.setHint("Precio del Evento");
-        valorEntradaEt.setInputType(InputType.TYPE_CLASS_NUMBER); //Aca s ele cambia el tipo de input al EditText.
-        calificacionTv.setText("Seleccione la calificación");
+        valorEntradaEt.setInputType(InputType.TYPE_CLASS_NUMBER); //Aca se le cambia el tipo de input al EditText.
+        calificacionTv.setText(R.string.letraTextViewCalificacion);
         calificacionTv.setGravity(Gravity.CENTER_HORIZONTAL);
 
         //4. Se añaden los View al Layout.
