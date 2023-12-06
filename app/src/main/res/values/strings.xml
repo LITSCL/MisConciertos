@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MisConciertos</string>
+    <string name="letraBotonFecha">Fecha</string>
+    <string name="letraBotonRegistrar">Registrar</string>
+    <string name="letraTextViewCalificacion">Seleccione la calificación</string>
+    <string name="letraTextViewGeneroMusical">Seleccione el género musical</string>
+</resources>
