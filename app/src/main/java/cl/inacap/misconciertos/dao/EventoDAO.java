@@ -8,11 +8,11 @@ import cl.inacap.misconciertos.dto.Evento;
 public class EventoDAO {
     private static List<Evento> eventos = new ArrayList<Evento>();
 
-    public void create(Evento e){
+    public void create(Evento e) {
         eventos.add(e);
     }
 
-    public List<Evento> getAll(){
+    public List<Evento> getAll() {
         return eventos;
     }
 }

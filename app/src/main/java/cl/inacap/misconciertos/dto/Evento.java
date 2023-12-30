@@ -10,11 +10,11 @@ public class Evento {
     @Override
     public String toString() {
         return "Evento[" + "nombreArtista='" + nombreArtista + "\'" +
-                "; fechaEvento='" + fechaEvento + "\'" +
-                "; generoMusical='" + generoMusical + "\'" +
-                "; valorEntrada=" + valorEntrada + "\'" +
-                "; calificacion=" + calificacion +
-                "]";
+            "; fechaEvento='" + fechaEvento + "\'" +
+            "; generoMusical='" + generoMusical + "\'" +
+            "; valorEntrada=" + valorEntrada + "\'" +
+            "; calificacion=" + calificacion +
+            "]";
     }
 
     public String getNombreArtista() {

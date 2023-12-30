@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
                 year = ca.get(Calendar.YEAR);
 
 
-                DatePickerDialog datePickerDialog = new DatePickerDialog(MainActivity.this, new DatePickerDialog.OnDateSetListener(){
+                DatePickerDialog datePickerDialog = new DatePickerDialog(MainActivity.this, new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int mes, int dia) {
                         mes = mes + 1;
@@ -231,7 +231,7 @@ public class MainActivity extends AppCompatActivity {
 
                     cargarLista();
                 }
-        }
+            }
         });
     }
 
@@ -272,7 +272,6 @@ public class MainActivity extends AppCompatActivity {
         }
         return listItems;
     }
-
 }
 
 

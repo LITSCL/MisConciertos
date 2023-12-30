@@ -36,7 +36,7 @@ public class Adaptador extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup viewGroup) { //En este método se asignan los elementos.
-        Item item=(Item)getItem(position);
+        Item item = (Item)getItem(position);
 
         convertView = LayoutInflater.from(context).inflate(R.layout.item,null);
         ImageView imagenIv = (ImageView)convertView.findViewById(R.id.imagenIv);
